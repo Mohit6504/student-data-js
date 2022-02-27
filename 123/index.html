@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Anonymous</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link href="css/style.css" rel="stylesheet">
+</head>
+<body>
+     <div class="container">
+<h1>Student Data</h1>
+
+<form method="POST" name="sample">
+<br>
+    Roll No. <input type="number" name="rollno"> 
+    Name: <input type="text" name="name">
+    <br><br>
+    <input type="button" name="add" value="Add Data" onclick="addStudent();" class="btn btn-success"><hr>
+
+            <table id="tbl" class="table" border="1">
+                <thead>
+                <th>rollno</th> 
+                <th>Name</th>
+                <th> Delete</th>
+                <th>Update</th>
+               
+                </thead>
+                
+                 <tbody>
+                     
+                 </tbody>
+             </table>
+
+</form>
+        <script src="js/script.js"></script>
+    </div>
+    
+</body>
+</html>
